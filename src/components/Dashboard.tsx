@@ -1,4 +1,5 @@
 import MenuBar from './MenuBar'
+import Main from './Main'
 import { LOGO } from '@/lib/ascii'
 
 export default function Dashboard() {
@@ -9,6 +10,7 @@ export default function Dashboard() {
           <code>{LOGO}</code>
         </pre>
         <MenuBar />
+        <Main />
       </div>
     </div>
   )
